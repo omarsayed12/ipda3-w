@@ -1,0 +1,325 @@
+    /**over Riding zBootstrab**/
+    
+    body {
+        font-family: 'Cairo', sans-serif;
+    }
+    
+    h2,
+    h3 {
+        color: #233142;
+    }
+    
+    h2 {
+        font-size: 2.7rem;
+    }
+    
+    p {
+        color: #a5a5a5
+    }
+    /*Start main navbar*/
+    
+    .navbar .navbar-brand img {
+        height: 65px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        border-color: transparent
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 173, 230)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        font-size: 1.7rem;
+    }
+    
+    button:focus {
+        outline: 0;
+    }
+    
+    .navbar .navbar-nav {
+        text-align: left;
+        padding-left: 2rem;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #5a5a5a;
+        font-weight: 600;
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+    /*End main navbar*/
+    /*Start section Who-are*/
+    
+    .how-are {
+        margin-bottom: 3rem;
+    }
+    
+    .how-are .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .how-are img {
+        margin-top: 3rem;
+        max-width: 75%;
+    }
+    
+    .how-are .header-side {
+        background: url("../imgs/header-side.jpg") left top/contain no-repeat;
+    }
+    
+    .how-are .header-side h1 {
+        padding: 12rem 2rem;
+        font-size: 3.3rem;
+        line-height: 1.6;
+        font-weight: 600;
+        color: #233142;
+    }
+    /*End section Whow-are*/
+    /*Start section about*/
+    
+    .about img {
+        max-width: 75%;
+    }
+    
+    .about p {
+        margin-top: 5rem;
+        color: #233142;
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.8;
+    }
+    /*End section about*/
+    /*Start Section What-we-offer*/
+    
+    .w-offer .overlay {
+        background: url("../imgs/we-offer.png")center/cover no-repeat;
+        margin-top: 5rem
+    }
+    
+    .w-offer .owl-carousel .card-B {
+        background-color: #FFFF;
+        border-radius: 30px;
+        margin: auto;
+    }
+    
+    .w-offer .owl-carousel .card-B img {
+        margin: auto;
+        padding: 3rem 0;
+        max-width: 30%;
+    }
+    
+    .w-offer .owl-carousel .card-B h3 {
+        color: #3aade6;
+        font-size: 1.5rem;
+    }
+    
+    .w-offer .owl-carousel .card-B .details p {
+        font-size: 1.2rem;
+        line-height: 1.7;
+        color: #233142;
+        font-weight: 600;
+        padding: 1rem 1rem 3rem;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev {
+        padding-left: 2rem !important;
+        color: rgb(95, 95, 95)
+    }
+    
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-top: 2rem
+    }
+    
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev:focus {
+        outline: 0;
+    }
+    /*End Section What-We-Offer*/
+    /*Start Section Some-works*/
+    
+    .someWorks .override {
+        margin-top: 5rem;
+        background: url("../imgs/bg30-Ar1web.gif")
+    }
+    
+    .someWorks .dist .card-all {
+        padding: 0 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .someWorks .dist .card-img {
+        border-radius: 15px;
+        background: #FFF
+    }
+    
+    .someWorks .dist .card-img img {
+        border-radius: 15px;
+        width: 100%;
+    }
+    
+    .someWorks .dist .card-img h3 {
+        padding: 1.7rem 0;
+        font-size: 1.5rem;
+    }
+    /*End Section Some-works*/
+    /*Start Section shoeImage*/
+    
+    .showImage {
+        overflow: hidden;
+    }
+    
+    .showImage .box-body {
+        margin: 0 auto 3rem;
+        width: 71%;
+        border-radius: 30px;
+    }
+    
+    .showImage img {
+        max-width: 100%;
+        border-radius: 30px;
+    }
+    
+    .showImage p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: #233142;
+        padding: 1rem 3rem;
+        text-align: center;
+    }
+    
+    .showImage .container .box-body a {
+        font-size: 1.2rem;
+        padding: .4rem 1.8rem;
+        border-radius: 30px;
+        background: #233142;
+    }
+    
+    .btn-dark:not(:disabled):not(.disabled).active:focus,
+    .btn-dark:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-dark.dropdown-toggle:focus {
+        box-shadow: inherit;
+    }
+    
+    .showImage span {
+        float: left;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .showImage .box-body .num {
+        color: rgb(122, 122, 122);
+        padding-left: 1rem;
+    }
+    
+    .showImage .box-body .more {
+        padding: 2rem 3rem
+    }
+    /*End Section shoeImage*/
+    /*Start section our client*/
+    
+    .our-client {
+        padding-top: 3rem;
+    }
+    
+    .our-client .overlay {
+        margin-top: 5rem;
+        background: url("../imgs/our-client-bg.jpg") bottom/cover no-repeat;
+    }
+    
+    .our-client .overlay img {
+        max-width: 60%;
+        margin: auto;
+        cursor: pointer;
+    }
+    /*End section our client*/
+    /*Start fotter*/
+    
+    footer {
+        background: url("../imgs/footer.jpg") center center/cover no-repeat;
+    }
+    
+    footer img {
+        max-width: 40%;
+        cursor: pointer;
+    }
+    
+    footer p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #FFF;
+        padding: 1.2rem 0;
+    }
+    
+    footer i {
+        color: #FFF;
+        padding-left: 2rem;
+        cursor: pointer;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+        transition: all .5s;
+    }
+    
+    footer .fa-facebook:hover {
+        color: #3b24ea
+    }
+    
+    footer .fa-whatsapp:hover {
+        color: darkgreen
+    }
+    
+    footer .fa-twitter:hover {
+        color: #1489ed
+    }
+    
+    footer .fa-github:hover {
+        color: #d5d5d5
+    }
+    /*End fotter*/
+    /*Start Group Creation Our FrameWork*/
+    
+    .headline {
+        width: 5%;
+        height: 1.5px;
+        background: #3aade6;
+        margin: auto;
+        margin-top: 1.6rem;
+    }
+    
+    .mybutton {
+        background: #233142;
+        font-size: 1.7rem;
+        padding: .6rem 7rem;
+        border-radius: 37px;
+    }
+    
+    .someWorks .container a,
+    .showImage .container a {
+        margin: auto;
+        text-decoration: none;
+        color: #FFF
+    }
+    
+    .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .about,
+    .w-offer,
+    .someWorks,
+    .someWorks .override,
+    .showImage,
+    .our-client .overlay,
+    .w-offer .overlay,
+    footer {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    /*End Group Creation Our FrameWork*/

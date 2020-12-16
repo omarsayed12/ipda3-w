@@ -1,0 +1,191 @@
+    /**over Riding zBootstrab**/
+    
+    body {
+        font-family: 'Cairo', sans-serif;
+    }
+    
+    h2,
+    h3 {
+        color: #233142;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    /*Start main navbar*/
+    
+    .navbar .navbar-brand img {
+        height: 65px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        border-color: transparent
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 173, 230)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        font-size: 1.7rem;
+    }
+    
+    button:focus {
+        outline: 0;
+    }
+    
+    .navbar .navbar-nav {
+        text-align: left;
+        padding-left: 2rem;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #5a5a5a;
+        font-weight: 600;
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+    /*Start Media*/
+    
+    @media screen and (max-width: 576px) {
+        .navbar .navbar-nav {
+            padding-left: 1rem;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 1.2rem;
+        }
+        .someWorks .override .dist .card-all {
+            margin: auto;
+            width: 71%;
+        }
+    }
+    /*End main navbar*/
+    /*Start Section Some-works*/
+    
+    .headline {
+        margin-right: 4rem;
+        margin-bottom: 5rem;
+    }
+    
+    .headline::before {
+        content: "";
+        display: inline-block;
+        position: relative;
+        top: 12px;
+        left: 12px;
+        width: 4px;
+        height: 41px;
+        background-color: #1489ed;
+    }
+    
+    .someWorks .override {
+        padding: 3rem 0;
+        background: url("../imgs/bg30-Ar1web.gif")
+    }
+    
+    .someWorks .override .dist .card-all {
+        padding: 0 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .someWorks .override .dist .card-all .card-img {
+        border-radius: 15px;
+        background: #FFF
+    }
+    
+    .someWorks .override .dist .card-all .card-img img {
+        border-radius: 15px;
+        width: 100%;
+    }
+    
+    .someWorks .override .dist .card-img h3 {
+        padding: 1.7rem 0;
+        font-size: 1.5rem;
+    }
+    /*****************Start Media*************/
+    
+    @media screen and (max-width: 576px) {
+        h2 {
+            font-size: 2rem;
+        }
+        .headline::before {
+            height: 38px;
+        }
+    }
+    
+    @media screen and (min-width:577px) and (max-width:768px) {
+        .someWorks .card-img {
+            margin: auto;
+            width: 71%;
+        }
+    }
+    /*End Section Some-works*/
+    /*Start fotter*/
+    
+    footer {
+        background: url("../imgs/footer.jpg") center center/cover no-repeat;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+    footer img {
+        max-width: 40%;
+    }
+    
+    footer p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #FFF;
+        padding: 1.2rem 0;
+    }
+    
+    footer i {
+        color: #FFF;
+        padding-left: 2rem;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+        transition: all .5s;
+    }
+    
+    footer .fa-facebook:hover {
+        color: #3b24ea
+    }
+    
+    footer .fa-whatsapp:hover {
+        color: darkgreen
+    }
+    
+    footer .fa-twitter:hover {
+        color: #1489ed
+    }
+    
+    footer .fa-github:hover {
+        color: #d5d5d5
+    }
+    /*****************Start Media*************/
+    
+    @media screen and (max-width:576px) {
+        footer .container .row {
+            text-align: center;
+        }
+        footer .container .footer-imgs {
+            margin-bottom: 3rem;
+        }
+    }
+    
+    @media screen and (min-width:577px) and (max-width:768px) {
+        footer .container .row {
+            text-align: center;
+        }
+        footer .container .footer-imgs {
+            margin-bottom: 4rem;
+        }
+    }
+    /*End Footer*/
+    /*start Groping code*/
+    
+    .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }

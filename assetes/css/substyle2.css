@@ -1,0 +1,239 @@
+  /**over Riding zBootstrab**/
+  
+  body {
+      font-family: 'Cairo', sans-serif;
+  }
+  
+  h2,
+  h3 {
+      color: #233142;
+  }
+  
+  h2 {
+      font-size: 2.2rem;
+  }
+  /*Start main navbar*/
+  
+  .navbar .navbar-brand img {
+      height: 65px;
+  }
+  
+  .navbar-light .navbar-toggler {
+      border-color: transparent
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 173, 230)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      font-size: 1.7rem;
+  }
+  
+  button:focus {
+      outline: 0;
+  }
+  
+  .navbar .navbar-nav {
+      text-align: left;
+      padding-left: 2rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+      color: #5a5a5a;
+      font-weight: 600;
+      font-size: 1.3rem;
+      padding-bottom: 1rem;
+  }
+  /*****************Start Media*************/
+  
+  @media screen and (max-width: 576px) {
+      .navbar .navbar-nav {
+          padding-left: 1rem;
+      }
+      .navbar-light .navbar-nav .nav-link {
+          font-size: 1.2rem;
+      }
+  }
+  /*End main navbar*/
+  /*Start Section shoeImage*/
+  
+  .headline {
+      margin: 3rem 5rem 3rem;
+  }
+  
+  .headline::before {
+      content: "";
+      display: inline-block;
+      position: relative;
+      top: 12px;
+      left: 12px;
+      width: 4px;
+      height: 43px;
+      background-color: #1489ed;
+  }
+  
+  .showImage {
+      overflow: hidden;
+  }
+  
+  .showImage .overlay {
+      padding: 4rem 0;
+      background: url("../imgs/articles.jpg") no-repeat;
+      background-size: contain;
+  }
+  
+  .showImage .overlay .box-body {
+      margin: 0 auto 3rem;
+      width: 71%;
+      border-radius: 30px;
+      background: #FFF;
+  }
+  
+  .showImage .overlay .box-body img {
+      max-width: 100%;
+      border-radius: 30px;
+  }
+  
+  .showImage .overlay .box-body p {
+      font-size: 1.4rem;
+      line-height: 1.6;
+      color: #233142;
+      padding: 1rem 3rem;
+      text-align: center;
+  }
+  
+  .showImage .overlay .box-body .more {
+      padding: 2rem 3rem
+  }
+  
+  .showImage .container .box-body .more a {
+      font-size: 1.2rem;
+      padding: .4rem 1.8rem;
+      border-radius: 30px;
+      background: #233142;
+  }
+  
+  .showImage .container .box-body .more a {
+      margin: auto;
+      text-decoration: none;
+      color: #FFF
+  }
+  
+  .btn-dark:not(:disabled):not(.disabled).active:focus,
+  .btn-dark:not(:disabled):not(.disabled):active:focus,
+  .show>.btn-dark.dropdown-toggle:focus {
+      box-shadow: inherit;
+  }
+  
+  .showImage .container .box-body .more span {
+      float: left;
+      font-size: 1.3rem;
+      font-weight: 600;
+  }
+  
+  .showImage .container .box-body .more .num {
+      color: rgb(122, 122, 122);
+      padding-left: 1rem;
+  }
+  /*****************Start Media*************/
+  
+  @media screen and (max-width: 576px) {
+      h2 {
+          font-size: 2rem;
+      }
+      .headline::before {
+          height: 38px;
+      }
+      .showImage {
+          padding-top: 2rem;
+      }
+      .showImage .box-body .more {
+          padding: 2rem 1rem;
+      }
+  }
+  
+  @media screen and (min-width:577px) and (max-width:768px) {
+      .showImage .box-body {
+          width: 80%;
+      }
+      .showImage .box-body .more {
+          padding: 2rem 3rem;
+      }
+  }
+  
+  @media screen and (min-width:769px) and (max-width:991px) {
+      .showImage .overlay .box-body {
+          width: 90%;
+      }
+  }
+  /*End Section shoeImage*/
+  /*Start footer*/
+  
+  footer {
+      background: url("../imgs/footer.jpg") center center/cover no-repeat;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+  }
+  
+  footer img {
+      max-width: 40%;
+  }
+  
+  footer p {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #FFF;
+      padding: 1.2rem 0;
+  }
+  
+  footer i {
+      color: #FFF;
+      padding-left: 2rem;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s;
+      transition: all .5s;
+  }
+  
+  footer .fa-facebook:hover {
+      color: #3b24ea
+  }
+  
+  footer .fa-whatsapp:hover {
+      color: darkgreen
+  }
+  
+  footer .fa-twitter:hover {
+      color: #1489ed
+  }
+  
+  footer .fa-github:hover {
+      color: #d5d5d5
+  }
+  /*****************Start Media*************/
+  
+  @media screen and (max-width:576px) {
+      footer .container .row {
+          text-align: center;
+      }
+      footer .container .footer-imgs {
+          margin-bottom: 3rem;
+      }
+  }
+  
+  @media screen and (min-width:577px) and (max-width:768px) {
+      footer .container .row {
+          text-align: center;
+      }
+      footer .container .footer-imgs {
+          margin-bottom: 4rem;
+      }
+  }
+  /*End Footer*/
+  /*start Groping code*/
+  
+  .link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+  }

@@ -1,0 +1,149 @@
+  /*Start Small screen / phone*/
+  
+  @media screen and (max-width:576px) {
+      /*Start Section how are*/
+      .how-are .header-side h1 {
+          font-size: 2.4rem
+      }
+      .how-are .image-auto {
+          text-align: center;
+      }
+      /**********Start section about*********/
+      .about {
+          padding: 0
+      }
+      .about img {
+          max-width: 65%;
+      }
+      .about .image-auto {
+          text-align: center;
+      }
+      .about p {
+          font-size: 1.34em;
+          line-height: 1.9;
+          text-align: center;
+      }
+      /********start section w-offer**********/
+      .w-offer .owl-carousel .card-B {
+          width: 71%;
+      }
+      /********Start section someWork*********/
+      .someWorks .card-img {
+          margin: auto;
+          width: 71%;
+      }
+      /********Start section ShoeImage********/
+      .showImage {
+          padding-top: 2rem;
+      }
+      .showImage .box-body .more {
+          padding: 2rem 1rem;
+      }
+      /*******Start section Our-client********/
+      .our-client .overlay {
+          margin-top: 2rem
+      }
+      /******Start section footer************/
+      footer .container .row {
+          text-align: center;
+      }
+      footer .container .footer-imgs {
+          margin-bottom: 3rem;
+      }
+      /*****Start Grouping small small Screen******/
+      h2 {
+          font-size: 2rem;
+      }
+      .mybutton {
+          padding: .6rem 3rem
+      }
+      /****End Grouping  small Screen*****/
+  }
+  /*End Small screen / phone*/
+  /* Start  Medium screen / table*/
+  
+  @media screen and (min-width:577px) and (max-width:768px) {
+      /********start section how-are**********/
+      .how-are img {
+          max-width: 75%;
+      }
+      .how-are .image-auto {
+          text-align: center;
+      }
+      .how-are .header-side h1 {
+          font-size: 2.8rem;
+      }
+      /*********Start section about***********/
+      .about p {
+          font-size: 1.7rem
+      }
+      /********start section w-offer**********/
+      .w-offer .owl-carousel .card-B {
+          width: 100%;
+      }
+      /********Start section someWork*********/
+      .someWorks .card-img {
+          margin: auto;
+          width: 71%;
+      }
+      /********Start section ShoeImage********/
+      .showImage {
+          padding-top: 2rem;
+      }
+      .showImage .box-body {
+          width: 80%;
+      }
+      .showImage .box-body .more {
+          padding: 2rem 3rem;
+      }
+      /*******Start section Our-client********/
+      .our-client .overlay {
+          margin-top: 3rem
+      }
+      /******Start section footer************/
+      footer .container .row {
+          text-align: center;
+      }
+      footer .container .footer-imgs {
+          margin-bottom: 4rem;
+      }
+  }
+  /*****Start Grouping Medium screen / tablet******/
+  
+  h2 {
+      font-size: 2.5rem;
+  }
+  
+  .mybutton {
+      padding: .6rem 5rem
+  }
+  /*****End Grouping Medium screen / tablet******/
+  /*End  Medium screen / table*/
+  /*Start Large screen*/
+  
+  @media screen and (min-width:769px) and (max-width:991px) {
+      .how-are .header-side h1 {
+          font-size: 2.6rem;
+      }
+      .how-are img {
+          max-width: 100%;
+      }
+      .about img {
+          max-width: 100%;
+      }
+      .about p {
+          font-size: 1.7rem;
+      }
+      .showImage .box-body {
+          width: 90%;
+      }
+  }
+  /*End Large screen*/
+  
+  @media screen and (min-width:992px) and (max-width:1200px) {}
+  /* Large devices (laptops/desktops, 992px and up) */
+  
+  @media(max-width:1200px) {}
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  
+  @media(min-width: 1200px) {}
